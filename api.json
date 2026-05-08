@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/deer-woman",
     "maintainers": [
       {
@@ -18,69 +18,107 @@
   },
   "phenomenon": {
     "id": "deer-woman",
-    "name": "",
-    "aliases": [],
+    "name": "Deer Woman",
+    "aliases": [
+      { "name": "Deer Lady", "language": "English" },
+      { "name": "Apela / Apila woman", "language": "Various Indigenous languages", "region": "Plains and Eastern Woodlands" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Unknown",
+    "subcategory": "Indigenous shapeshifter / cautionary spirit",
     "tags": [
-      "folklore",
-      "mythology"
+      "indigenous-north-america",
+      "shapeshifter",
+      "cautionary-figure",
+      "fertility",
+      "mmiw",
+      "native-american-folklore"
     ],
     "status": "documented",
     "description": {
-      "summary": "No description available.",
-      "full": ""
+      "summary": "A shapeshifting spirit from the traditions of multiple Indigenous nations of North America, appearing as a beautiful woman with deer hooves or a deer's lower body. She enforces social norms — particularly around the treatment of women — and has been embraced as a contemporary symbol in Missing and Murdered Indigenous Women advocacy.",
+      "full": "Deer Woman is a shapeshifting spirit attested in the traditions of many Indigenous nations of central and eastern North America, including (according to anthropological and Indigenous-published sources) the Lakota, Ojibwe, Ponca, Omaha, Cherokee, Muscogee (Creek), Seminole, Choctaw, Otoe, Osage, Pawnee, and Haudenosaunee. She is generally described as a beautiful young woman whose feet, lower legs, or lower body are those of a white-tailed deer. In traditional narratives she appears at dances, on lonely roads, or in the woods; men who follow her — particularly those who behave dishonourably toward women, are unfaithful to spouses, or otherwise transgress community norms — may be lured away to be trampled, lose their minds, or vanish entirely. In other traditions she is also a benevolent figure associated with fertility, love, and the protection of women and children. Since the 2000s Indigenous writers and artists, including Anishinaabe author Tiffany Midge and the comics writers Jeffrey Veregge and Elizabeth LaPensée, have reframed Deer Woman in works that connect the figure to advocacy around Missing and Murdered Indigenous Women (MMIW)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "English calque of various Indigenous-language names; the figure is referred to by different names in different nations.",
+      "meaning": "'Deer Woman' / 'Deer Lady'.",
+      "first_use": "Documented in 19th- and 20th-century ethnographic collections of Native North American oral traditions; widely circulated in English from the late 20th century onward."
     }
   },
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Shapeshifter",
+      "subtype": "Cautionary spirit / fertility figure",
+      "variant": "Indigenous North American (Plains and Eastern Woodlands)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "skinwalkers", "name": "Skinwalkers", "relationship": "related", "description": "Diné (Navajo) shapeshifter tradition" },
+      { "id": "la-llorona", "name": "La Llorona", "relationship": "similar", "description": "Latin American female cautionary spirit" },
+      { "id": "huldre", "name": "Huldre", "relationship": "similar", "description": "Scandinavian forest woman with hidden animal-like trait" },
+      { "id": "ciguapa", "name": "Ciguapa", "relationship": "similar", "description": "Dominican female forest spirit with backward feet" },
+      { "id": "patasola", "name": "Patasola", "relationship": "similar", "description": "Colombian one-legged forest seductress / cautionary spirit" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["dark hair", "skin appearance varies in narratives", "deer pelage on lower body in shifted form"],
+      "features": [
+        { "feature": "Deer hooves or lower legs", "description": "Beautiful woman from the waist up, with the lower legs and hooves of a deer", "frequency": "always" },
+        { "feature": "Capacity to fully transform", "description": "May appear as fully human, fully deer, or in a hybrid form", "frequency": "common" },
+        { "feature": "Striking beauty", "description": "Described as exceptionally beautiful in human form, often with long dark hair", "frequency": "common" }
+      ],
+      "morphology": "Shapeshifter intermediate between woman and white-tailed deer; observers report concealed or partially concealed hooves under skirts."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Transforms freely between woman, deer, and hybrid form", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Seduction and luring", "description": "Lures men who behave wrongly toward women into the wilderness", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Protection of women and children", "description": "In some traditions, she watches over women, children, and the sanctity of family", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["woodlands", "tall grass prairie", "edges of villages and dance grounds", "lonely roads at night"],
+      "patterns": [
+        "Appears at dances and gatherings to test or punish wayward men",
+        "Lures the dishonest into the woods and away from community",
+        "May appear as a benevolent guardian to women in need"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Eastern Woodlands and central Plains of North America, with prominent traditions in the territories of nations from the upper Great Lakes to the southeastern United States and the Plains.",
+      "continents": ["North America"],
+      "countries": ["United States", "Canada"],
+      "regions": ["Great Plains", "Eastern Woodlands", "Great Lakes", "Southeastern Woodlands", "Oklahoma"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-contact",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Indigenous oral traditions; first recorded in writing in 19th- and 20th-century ethnographies"
+      },
+      "peak_activity_periods": [
+        { "period": "Pre-contact – present", "description": "Continuous presence in oral traditions of multiple Indigenous nations" },
+        { "period": "2000s–present", "description": "Resurgence in Indigenous-authored fiction, comics, film, and MMIW advocacy" }
+      ]
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Long-standing oral traditions of Indigenous nations of the Plains and Eastern Woodlands, in which deer figures hold complex significance as game, kin, and spirit beings.",
+      "earliest_accounts": "Recorded in 19th- and 20th-century ethnographic literature on Plains and Eastern Woodlands oral tradition; precise pre-contact dating is not possible.",
+      "folklore_connections": "Shares structural features with global cautionary-figure traditions (La Llorona, Huldre, Ciguapa, Patasola) but is rooted in distinctly Indigenous North American moral and spiritual frameworks."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1992-01-01", "event": "Joe Hayes anthologises Deer Woman material in Native American storytelling collections", "significance": "Late-20th-century popular reception", "source": "Hayes, J., various editions" },
+      { "date": "2003-01-01", "event": "Clifford E. Trafzer's American Indian Trickster Tales discusses Deer Woman among Plains and Plateau traditions", "significance": "Scholarly synthesis", "source": "Trafzer (2003)" },
+      { "date": "2017-01-01", "event": "Comic series 'Deer Woman: An Anthology' (edited by Elizabeth LaPensée) brings Indigenous-authored Deer Woman stories to wide audiences", "significance": "Indigenous-led contemporary reframing", "source": "LaPensée et al. (2017)" },
+      { "date": "2022-01-01", "event": "Marvel Studios' Echo (2024 release) explores Deer Woman and other Indigenous figures (development phase from 2022)", "significance": "Mainstream-media reception of Indigenous tradition", "source": "Marvel Studios production materials" }
+    ],
+    "modern_era": "Contemporary Indigenous writers and artists have reclaimed Deer Woman as a symbol of women's safety and power, particularly in the context of advocacy around the Missing and Murdered Indigenous Women and Girls (MMIWG) crisis. The figure now appears in Indigenous-authored short fiction, novels, comic anthologies, plays, and film and television produced for mainstream audiences."
   },
   "sightings": {
     "statistics": {
@@ -93,34 +131,97 @@
     "database_path": "./sightings/"
   },
   "evidence": {
-    "physical": [],
-    "photographic": [],
-    "video": [],
-    "audio": [],
-    "trace": []
+    "documentary": [
+      {
+        "id": "deer-woman-evidence-trafzer-2003",
+        "type": "scholarly synthesis",
+        "name": "Trafzer, American Indian Trickster Tales",
+        "date": "2003",
+        "description": "Synthesis of trickster and cautionary figures in Plains and Plateau traditions, including Deer Woman.",
+        "status": "verified",
+        "analysis": "Mainstream scholarly treatment situating Deer Woman in a wider Indigenous narrative framework.",
+        "source": "Trafzer, C. E. (2003), American Indian Trickster Tales"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Genuine spirit-being",
+        "description": "Within the cosmologies of the nations that recount her, Deer Woman is a real spirit-being whose role is to enforce the proper relationship between humans, the deer-people, and women in particular.",
+        "proponents": ["Indigenous tradition-bearers and writers"],
+        "evidence_cited": ["Continuous oral tradition", "Contemporary Indigenous testimony"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cautionary-figure / moral-instruction interpretation",
+        "description": "From a folkloristic perspective, Deer Woman stories function as moral and cautionary instruction enforcing community norms about respect for women and the proper conduct of men.",
+        "proponents": ["Folklorists"],
+        "evidence_cited": ["Patterned narrative function across multiple nations' traditions"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Lakota deer-spirit traditions",
+        "Ojibwe oral tradition",
+        "Cherokee, Muscogee, Seminole, and Choctaw oral traditions",
+        "Ponca, Omaha, Otoe, Osage, and Pawnee oral traditions",
+        "Haudenosaunee (Iroquois) oral tradition"
+      ],
+      "stories": [
+        "Tales of unfaithful or abusive men lured to ruin",
+        "Stories of Deer Woman as protector of women travellers",
+        "Modern Indigenous reimaginings (e.g. Tiffany Midge, Elizabeth LaPensée)"
+      ],
+      "beliefs": "Deer Woman embodies the seriousness of community norms about respect for women; encounters are treated as morally consequential rather than merely supernatural."
+    },
+    "indigenous": {
+      "cultures": ["Lakota", "Ojibwe", "Ponca", "Omaha", "Cherokee", "Muscogee (Creek)", "Seminole", "Choctaw", "Otoe", "Osage", "Pawnee", "Haudenosaunee"],
+      "significance": "An important cautionary and protective figure, increasingly invoked in contemporary Indigenous activism and art around MMIWG.",
+      "sensitivity_note": "Deer Woman traditions belong to specific Indigenous nations; their telling and interpretation are best led by tradition-bearers and Indigenous writers from those nations.",
+      "respect_guidelines": "Cite Indigenous authors and tradition-bearers; do not appropriate the figure as a generic 'monster' detached from its cultural and political context."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "American Indian Trickster Tales — Clifford E. Trafzer (2003)",
+        "Bury My Heart at Conference Room B (essays referencing Deer Woman) — Tiffany Midge",
+        "Deer Woman: An Anthology — ed. Elizabeth LaPensée et al. (2017)",
+        "Native American Animal Stories — Joseph Bruchac (1992)"
+      ],
+      "film_tv": [
+        "Masters of Horror, Episode 'Deer Woman' (Showtime, 2005)",
+        "Reservation Dogs (FX/Hulu, 2021–2023)",
+        "Echo (Marvel Studios / Disney+, 2024)"
+      ],
+      "games": [
+        "When Rivers Were Trails — Indigenous-developed video game (Elizabeth LaPensée et al.)"
+      ],
+      "other": [
+        "Indigenous-led Missing and Murdered Indigenous Women advocacy art and posters"
+      ]
     }
   },
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Clifford E. Trafzer", "affiliation": "University of California, Riverside", "contribution": "Scholarly synthesis of Plains and Plateau trickster and cautionary traditions", "period": "1980s–present" },
+      { "name": "Joseph Bruchac", "affiliation": "Greenfield Review Press / Abenaki tradition-bearer", "contribution": "Indigenous-authored retellings and anthologies for general readers", "period": "1970s–present" },
+      { "name": "Elizabeth LaPensée", "affiliation": "Michigan State University; Anishinaabe / Métis", "contribution": "Editing and authoring Indigenous-led Deer Woman comics and games", "period": "2010s–present" },
+      { "name": "Tiffany Midge", "affiliation": "Hunkpapa Lakota writer", "contribution": "Contemporary Indigenous literary engagement with Deer Woman themes", "period": "2010s–present" }
+    ],
+    "organizations": [
+      { "name": "Native American Rights Fund", "url": "https://www.narf.org", "focus": "Legal and advocacy work, including MMIW issues" },
+      { "name": "Coalition to Stop Violence Against Native Women", "url": "https://www.csvanw.org", "focus": "Advocacy on violence against Indigenous women" }
+    ],
+    "ongoing_studies": "Continuing Indigenous-led literary, artistic, and activist engagement with Deer Woman; folkloric and ethnographic work in American universities."
   },
-  "sources": []
+  "sources": [
+    { "id": "trafzer-2003", "type": "book", "title": "American Indian Trickster Tales", "authors": ["Clifford E. Trafzer"], "publication": "Penguin", "date": "2003", "isbn": "978-0142002445" },
+    { "id": "bruchac-1992", "type": "book", "title": "Native American Animal Stories", "authors": ["Joseph Bruchac"], "publication": "Fulcrum Publishing", "date": "1992", "isbn": "978-1555911270" },
+    { "id": "lapensee-2017", "type": "book", "title": "Deer Woman: An Anthology", "authors": ["Elizabeth LaPensée (ed.)", "Weshoyot Alvitre", "et al."], "publication": "Native Realities", "date": "2017", "isbn": "978-0998114446" },
+    { "id": "wikipedia-deer-woman", "type": "website", "title": "Deer Woman", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Deer_Woman", "accessed": "2026-05-07" }
+  ]
 }
